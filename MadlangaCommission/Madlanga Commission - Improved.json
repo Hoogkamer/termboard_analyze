@@ -4,9 +4,9 @@
     "author": "Werner Koegelenberg",
     "description": "Network analysis of witnesses, implicated parties, and criminal networks from the Madlanga Commission of Inquiry into Criminality, Political Interference, and Corruption in the Criminal Justice System (South Africa, 2025) (Improved Version v3.1)",
     "imageURL": "",
-    "updateDate": "17-1-2026",
+    "updateDate": "18-1-2026",
     "id": "madlanga-commission-2025",
-    "updateDateTime": "2026-01-17T12:59:26.400Z",
+    "updateDateTime": "2026-01-18T10:22:57.597Z",
     "xFields": [
       {
         "id": "auto-be50fe9f-9d62-2099-c73a-fcbb47e4e323",
@@ -43,7 +43,8 @@
         },
         "shapes": {},
         "borderColors": {},
-        "sizes": {}
+        "sizes": {},
+        "scope": "terms"
       },
       {
         "id": "auto-a5eb6560-a59a-184e-9195-8d2db4a4bc54",
@@ -68,7 +69,8 @@
         "colors": {},
         "shapes": {},
         "borderColors": {},
-        "sizes": {}
+        "sizes": {},
+        "scope": "terms"
       },
       {
         "id": "auto-cause-of-death-2fe3ab45-a9dd-4633-932c-d898a1a2294e",
@@ -84,7 +86,8 @@
         "colors": {},
         "shapes": {},
         "borderColors": {},
-        "sizes": {}
+        "sizes": {},
+        "scope": "terms"
       },
       {
         "id": "auto-relation-type-8dcc20e7-78d6-4469-b6ad-cc8e239b7462",
@@ -112,11 +115,13 @@
         },
         "shapes": {},
         "borderColors": {},
-        "sizes": {}
+        "sizes": {},
+        "scope": "relations"
       }
     ],
     "xFieldsSettings": {
-      "backgroundColorField": "auto-be50fe9f-9d62-2099-c73a-fcbb47e4e323"
+      "backgroundColorField": "auto-be50fe9f-9d62-2099-c73a-fcbb47e4e323",
+      "lineColorField": "auto-relation-type-8dcc20e7-78d6-4469-b6ad-cc8e239b7462"
     },
     "termMapping": {
       "excelTab": "terms",
@@ -319,7 +324,7 @@
     "relationTypeMapping": [],
     "documentSettings": {
       "colorRelationTypes": false,
-      "showRelationTypeLegend": true,
+      "showRelationTypeLegend": false,
       "showTermColorLegend": true,
       "scaleTermSize": "none",
       "scaleTermColor": "none",
@@ -338,12 +343,37 @@
         "termType": "All",
         "hideChildlessInTree": false,
         "highlightOrphans": false
-      }
+      },
+      "legendSettings": {
+        "termColors": {
+          "id": "termColors",
+          "x": 45.73046875,
+          "y": 207.4765625,
+          "width": 324.828125,
+          "open": true
+        },
+        "relationTypes": {
+          "id": "relationTypes",
+          "x": 35.3203125,
+          "y": 345.5234375,
+          "width": 359,
+          "open": false
+        },
+        "relationColors": {
+          "id": "relationColors",
+          "x": 46.12890625,
+          "y": 50,
+          "width": 320.75,
+          "open": true
+        }
+      },
+      "showRelationColorsLegend": true
     },
     "semanticCheckDismissals": {
       "dismissals": [],
       "version": 1
     },
+    "Key": "madlanga-commission-2025",
     "version": "3.0",
     "colorLegend": {
       "cartel": "#c41e3a - Big Five Cartel members, hitmen, criminal associates",
@@ -429,7 +459,7 @@
         "x": -567.0877637802258,
         "y": 62.132731978583514,
         "style_borderColor": "#424242",
-        "style_backgroundColor": "#616161",
+        "style_backgroundColor": "#FFFAC8",
         "style_fontColor": "auto",
         "style_fontSize": "14",
         "style_fontType": "sans-serif",
@@ -504,7 +534,7 @@
         "name": "Ekurhuleni Metro Police Department",
         "description": "Municipal police infiltrated by Big Five cartel. Julius Mkhwanazi led 'rogue unit'. Implicated in copper theft, murder cover-ups, criminal collaboration.",
         "additionalInformation": "Status: Compromised",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -532,15 +562,15 @@
         "name": "Murder of Armand Swart",
         "description": "April 17, 2024. Mistaken identity hit. Engineer shot 23 times.",
         "additionalInformation": "",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
         "weight": 1,
         "xFields": {},
         "synonyms": [],
-        "x": -146.73469925022314,
-        "y": -1208.0029204657058,
+        "x": -112.5,
+        "y": -1287.5,
         "style_borderColor": "#000000",
         "style_backgroundColor": "#000000",
         "style_fontColor": "#ffffff",
@@ -560,7 +590,7 @@
         "name": "Phone Records (Molefe/Tau)",
         "description": "119-second call 5 days before Swart murder.",
         "additionalInformation": "",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -598,7 +628,7 @@
         "x": -202.32756749476016,
         "y": 446.73685182307366,
         "style_borderColor": "#0d47a1",
-        "style_backgroundColor": "#1565c0",
+        "style_backgroundColor": "#f57c00",
         "style_fontColor": "auto",
         "style_fontSize": "14",
         "style_fontType": "sans-serif",
@@ -868,7 +898,7 @@
         "name": "Acting Judge President Aubrey Ledwaba",
         "description": "Acting Judge President of Gauteng High Court. Presided over Molefe's bail appeal. Witnesses alleged R2.5M bribe paid. Denied allegations, declined special leave.",
         "additionalInformation": "Position: Acting Judge PresidentAllegation: R2.5M bribe for Molefe bail (denied)",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -896,7 +926,7 @@
         "name": "Nigel Dam",
         "description": "Disposal site for bodies ordered by Julius Mkhwanazi.",
         "additionalInformation": "",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -924,7 +954,7 @@
         "name": "Steyn City Penthouse",
         "description": "Luxury property owned/used by Matlala to host politicians (Cele).",
         "additionalInformation": "",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -1242,7 +1272,7 @@
         "x": -590.0340872888711,
         "y": 385.6945681604159,
         "style_borderColor": "#263238",
-        "style_backgroundColor": "#455a64",
+        "style_backgroundColor": "#424242",
         "style_fontColor": "auto",
         "style_fontSize": "14",
         "style_fontType": "sans-serif",
@@ -1624,7 +1654,7 @@
         "name": "Daughter of Tiego Mabusela",
         "description": "Registered owner of Mercedes used in Swart surveillance.",
         "additionalInformation": "",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -1652,7 +1682,7 @@
         "name": "Son of Maj-Gen Senona",
         "description": "Allegedly received property deals funded by cartel.",
         "additionalInformation": "",
-        "has_position": false,
+        "has_position": true,
         "type": "term",
         "parent": null,
         "displayType": "text",
@@ -1998,7 +2028,7 @@
         "x": 271.8683506042581,
         "y": -814.7026114717671,
         "style_borderColor": "#424242",
-        "style_backgroundColor": "#616161",
+        "style_backgroundColor": "#FFFAC8",
         "style_fontColor": "auto",
         "style_fontSize": "14",
         "style_fontType": "sans-serif",
@@ -2024,8 +2054,8 @@
         "weight": 1,
         "xFields": {},
         "synonyms": [],
-        "x": -419.8861197543518,
-        "y": -924.142871948544,
+        "x": -487.5,
+        "y": -1037.5,
         "style_borderColor": "#8b0000",
         "style_backgroundColor": "#c41e3a",
         "style_fontColor": "auto",
